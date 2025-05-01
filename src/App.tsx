@@ -39,7 +39,7 @@ export const App: React.FC = () => {
     }
 
     if (sortBy === SortType.reset) {
-      setCurrentGoods([...goods]);
+      setCurrentGoods([...goodsFromServer]);
     }
   };
 
